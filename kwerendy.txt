@@ -1,0 +1,4 @@
+zapytanie1 SELECT `imie`, `nazwisko` FROM `uczen`;
+zapytanie2 SELECT imie, nazwisko FROM `uczen` WHERE id_uczen=2;
+zapytanie3 SELECT `ocena` FROM `ocena` WHERE `ucen_id`=2 AND `przedmiot_id`=1;
+zapytanie4 SELECT SUM(`ocena`)/count(`ocena`) AS `srednia ocen z jêzyka polskiego` FROM `ocena` WHERE `ucen_id`=2 AND `przedmiot_id`=1;
